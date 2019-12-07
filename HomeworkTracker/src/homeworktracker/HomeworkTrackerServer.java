@@ -32,7 +32,7 @@ public class HomeworkTrackerServer {
 
         File docroot;
         try {
-            docroot = new File("D:\\src\\Java-Inter-FinalProject\\WebPages");
+            docroot = new File("D:\\src\\JavaWebServer\\Web-Server-Homework-Tracker-Web-Site\\WebPages");
 //            docroot = new File(args[0]);
         } catch (ArrayIndexOutOfBoundsException ex) {
             printLine("Usage: java JHTTP docroot port");
@@ -55,5 +55,6 @@ public class HomeworkTrackerServer {
         System.err.println(msg);
 
     }
+}
 
    
